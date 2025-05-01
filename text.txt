@@ -1,0 +1,6 @@
+python -m venv venv
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+.\.venv\Scripts\activate
+streamlit run app.py
+pip install streamlit pandas matplotlib
+python.exe -m pip install --upgrade pip

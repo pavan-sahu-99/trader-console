@@ -1,0 +1,9 @@
+trader_console/
+├── app.py                 # Main Streamlit app
+├── data/
+│   └── trades.csv         # Trade logs
+├── utils/
+│   ├── capital_tracker.py # Capital calc + lot size logic
+│   ├── risk_manager.py    # Risk alerts and rules
+│   └── trade_utils.py     # Helpers for logging, scoring
+└── assets/                # Icons, logos (for dashboard polish)
