@@ -1,1 +1,6 @@
 date,time,setup,entry_price,exit_price,qty,sl,target,planned_risk,actual_profit,followed_plan,emotion_score,notes
+2025-05-04,14:30,Range Breakout,150.65,157.64,150,130.0,190.0,1500,1048.499999999997,Yes,4,"1. Missed many trades in  morning
+2. Entered one which was good, didnt exit in between and did hold it till swing low.
+3. didn't exit manually which was good but exited out of fear, by trailing aggressively.
+4. Good things were i did stick to my plan.
+5. Bad thing was i didn't trail sl according to swings"

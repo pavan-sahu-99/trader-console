@@ -3,6 +3,7 @@ import pandas as pd
 from utils.capital_tracker import get_current_capital, calculate_lot_size
 from utils.risk_manager import check_risk_warnings
 from datetime import datetime
+from datetime import datetime
 import os
 
 # Load trade data
@@ -36,7 +37,11 @@ with st.form("log_trade"):
     col1, col2 = st.columns(2)
     setup = col1.text_input("Setup Name")
     qty = col2.number_input("Quantity", min_value=75, step=75, value=lots * 75)
-    
+
+    # Date and Time Picker
+    trade_date = col1.date_input("Select Trade Date", datetime.today())  # Default is today
+    trade_time = col2.text_input("Enter Trade Time (HH:MM)", datetime.now().strftime("%H:%M"))   # Default is current time
+
     entry = col1.number_input("Entry Price")
     exit = col2.number_input("Exit Price")
     
@@ -51,13 +56,14 @@ with st.form("log_trade"):
     emotion_score = st.slider("Emotion Level (1 = calm, 5 = anxious)", 1, 5, 3)
     notes = st.text_area("Notes (Why exit? What felt off?)")
 
+
     submitted = st.form_submit_button("Add Trade")
 
     if submitted:
         now = datetime.now()
         new_trade = pd.DataFrame([{
-            "date": now.strftime("%Y-%m-%d"),
-            "time": now.strftime("%H:%M"),
+            "date": trade_date.strftime("%Y-%m-%d"),
+            "time": trade_date.strftime("%H:%M"),
             "setup": setup,
             "entry_price": entry,
             "exit_price": exit,
