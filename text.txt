@@ -4,3 +4,9 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 streamlit run app.py
 pip install streamlit pandas matplotlib
 python.exe -m pip install --upgrade pip
+
+#### git:
+git --version
+git init
+git config --global user.name "Your Full Name"
+git config --global user.email "your.email@example.com"

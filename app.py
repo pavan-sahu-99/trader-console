@@ -44,7 +44,8 @@ with st.form("log_trade"):
     target = col2.number_input("Target")
 
     planned_risk = col1.number_input("Planned Risk", value=1500)
-    actual_profit = col2.number_input("Actual Profit (+/-)", value=0)
+    actual_profit = (exit - entry) * qty
+    col2.metric("Auto P&L (₹)", f"{actual_profit:,.2f}")
 
     followed_plan = st.selectbox("Followed Plan?", ["Yes", "No"])
     emotion_score = st.slider("Emotion Level (1 = calm, 5 = anxious)", 1, 5, 3)

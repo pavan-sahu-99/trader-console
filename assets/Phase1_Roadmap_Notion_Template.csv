@@ -1,0 +1,23 @@
+Task,Status,Due Date,Notes
+Deploy Trader Console v1 on Streamlit Cloud,To Do,02-05-2025,Week 1 - 2 Goal
+Log every Nifty trade with R-multiples,To Do,02-05-2025,Week 1 - 2 Goal
+Review trades daily with execution scores,To Do,02-05-2025,Week 1 - 2 Goal
+Update capital daily,To Do,02-05-2025,Week 1 - 2 Goal
+Build 10-min post-market review habit,To Do,02-05-2025,Week 1 - 2 Goal
+Launch Intraday Boost v1 (15-min R-factor),To Do,12-05-2025,Week 3 - 4 Goal
+Output top 10 daily stocks with tags,To Do,12-05-2025,Week 3 - 4 Goal
+Use filtered stocks to guide Nifty entries,To Do,12-05-2025,Week 3 - 4 Goal
+Add equity curve chart to Console,To Do,12-05-2025,Week 3 - 4 Goal
+Add execution score graph,To Do,12-05-2025,Week 3 - 4 Goal
+Reach ₹1L capital milestone,To Do,26-05-2025,Week 5 - 6 Goal
+Expand Option Apex (OI & IV shifts),To Do,26-05-2025,Week 5 - 6 Goal
+Log 3–5 stock option trades,To Do,26-05-2025,Week 5 - 6 Goal
+Start Alpha Journal with winning setups,To Do,26-05-2025,Week 5 - 6 Goal
+Design Trade Analyst v1 layout,To Do,09-06-2025,Week 7 - 8 Goal
+Add multi-page layout to Console,To Do,09-06-2025,Week 7 - 8 Goal
+Add risk layer: drawdown alerts,To Do,09-06-2025,Week 7 - 8 Goal
+Review 30 days of trades (metrics),To Do,09-06-2025,Week 7 - 8 Goal
+Log 100 total trades,To Do,23-06-2025,Week 9 - 10 Goal
+Summarize Q1 P&L + Execution Report,To Do,23-06-2025,Week 9 - 10 Goal
+Polish Trade Analyst for Phase 2,To Do,23-06-2025,Week 9 - 10 Goal
+Prep GitHub/team infra for scaling,To Do,23-06-2025,Week 9 - 10 Goal
